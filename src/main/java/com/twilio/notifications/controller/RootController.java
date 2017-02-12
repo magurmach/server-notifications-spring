@@ -12,7 +12,8 @@ public class RootController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
     public String index() throws Exception {
-        throw new Exception("Impossible just happened");
+        return "If you want to trigger panic, POST to /panic";
     }
+
 
 }

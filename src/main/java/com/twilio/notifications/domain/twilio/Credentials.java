@@ -10,15 +10,18 @@ public class Credentials {
     }
 
     public String getAccountSid() {
-        return env.get("TWILIO_ACCOUNT_SID");
+        //TODO
+        return "AC26cafd7d8bcfd9c4c59621128191716d";
     }
 
     public String getAuthToken() {
-        return env.get("TWILIO_AUTH_TOKEN");
+        //TODO
+        return "9566d2a8384bec3c6b28e7e5ed111a70";
     }
 
     public String getPhoneNumber() {
-        return env.get("TWILIO_PHONE_NUMBER");
+        //TODO
+        return "+14242896993";
     }
 }
 
